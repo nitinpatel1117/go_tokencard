@@ -56,9 +56,9 @@ This can be run with the command `go test`
 ## Additional things to do
 These are additional things that I would have done if I had more time:
  1. Refactored the server.go  and client.go files out more. e.g.
-		 - The server.go has all the database querying which can be put into another file in the `src/server`.
-		 - The structs are copied in both the server.go and client.go file, they could go in another shared file.
-		 - The url construction in the client.go can be separated
-		 - The http client aspect of the client.go that calls the urls is similar in all three cases, some more refactoring here to not repeat the code
+	 - The server.go has all the database querying which can be put into another file in the `src/server`.
+	- The structs are copied in both the server.go and client.go file, they could go in another shared file.
+	 - The url construction in the client.go can be separated
+	 - The http client aspect of the client.go that calls the urls is similar in all
 2. Add validation on the user input to the cli arguments
 3. Add logging
